@@ -50,16 +50,33 @@ li button{
 }
 
 .all2{
+    margin-top:2cm ;
     padding: 1em 3em;
     background-image: url('../images/banner-bg.jpg.jpeg');
     background-size: cover;
     display: flex;
     gap:8em
     
+    
+    
 }
 .allbtnin{
     background-color: white;
     display: flex;
+    width: 45%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 1cm;
+}
+input{
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    text-align:center;
+   
+
 }
 .par{
     margin: 1em  2em;
@@ -70,18 +87,33 @@ p{
     color: white;
     margin-top: 1cm;
     font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .best{
     color: white;
     font-size: 40px;
     margin-top: 1cm;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 .p1{
     color: white;
     font-size: 20px;
     font-weight: bold;
     margin-top: 1cm;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #ak{
     padding-left: 3cm;
+}
+.allall{
+    background-image: url('../images/banner-bg.jpg.jpeg');
+    background-size: cover;
+
+}
+.butto button{
+    border-radius: 20px;
+    background-color:#ed5f63;
+    border: none;
 }
