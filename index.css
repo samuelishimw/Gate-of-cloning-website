@@ -8,6 +8,7 @@
     border-bottom-right-radius: 30px;
     display: flex;
     padding: 1em 2em;
+   
 }
 .log{
     padding: 8px 9px;
@@ -63,18 +64,21 @@ li button{
 .allbtnin{
     background-color: white;
     display: flex;
-    width: 45%;
+    width: 56%;
     border: none;
     outline: none;
     border-radius: 20px;
     align-items: center;
     margin-top: 1cm;
+    justify-content: space-between;
+    
 }
 input{
     border: none;
     outline: none;
     border-radius: 2px;
     text-align:center;
+    background: transparent;
    
 
 }
@@ -116,4 +120,36 @@ p{
     border-radius: 20px;
     background-color:#ed5f63;
     border: none;
+    color: white;
+    font-weight: bold;
+    padding: 1em 1em;
+}
+.umb{
+    position: absolute;
+    top:0;
+    background-color:#0071f8;
+    margin-top: 0.5cm;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    right: 15px;
+    border-radius: 40px;
+    padding: 0.3em 1em;
+    
+}
+.imga{
+    position: relative;
+}
+.umb2{
+
+position:absolute;
+bottom: 0;
+background-color: #ed5f63;
+border-radius: 50%;
+color: white;
+font-size: 15px;
+padding: 2em;
+left:-40px;
+bottom:-18px;
+
 }
