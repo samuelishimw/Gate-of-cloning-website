@@ -3,7 +3,7 @@
     margin-top: 0;
 }
 .alllognav{
-    background-color: dodgerblue;
+    background-color:#0071f8;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     display: flex;
@@ -50,6 +50,38 @@ li button{
 }
 
 .all2{
+    padding: 1em 3em;
     background-image: url('../images/banner-bg.jpg.jpeg');
     background-size: cover;
+    display: flex;
+    gap:8em
+    
+}
+.allbtnin{
+    background-color: white;
+    display: flex;
+}
+.par{
+    margin: 1em  2em;
+    gap: 2em;
+    
+}
+p{
+    color: white;
+    margin-top: 1cm;
+    font-size: 18px;
+}
+.best{
+    color: white;
+    font-size: 40px;
+    margin-top: 1cm;
+}
+.p1{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1cm;
+}
+#ak{
+    padding-left: 3cm;
 }
