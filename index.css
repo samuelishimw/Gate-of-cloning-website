@@ -232,14 +232,45 @@ bottom:-18px;
 .photoes{
     margin-top: 2cm;
 }
+
+
 .photo1 img{
     border-radius: 20px;
+    width: 25%;
+    position: relative;
+    
+    
 }
 .num{
     background-color: #0071f8;
-    width: 2%;
-    padding: 1em 1em;
+    width: 1%;
+    padding: 1em 2em;
    text-align: center;
-    border-radius: 20px;
+    border-radius: 15px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:33.5cm;
+    right: 25.3cm;
+}
+.photo1{
+
+}
+.imn img{
+    width: 70%;
+    margin-top: 1.3cm;
+}
+.act{
+    color: rgb(135, 134, 134);
+    margin-top: 0.5cm;
+}
+.asi{
+    margin-top: 0.5cm;
+    font-weight: bold;
+    font-size: 20px;
+}
+.alll{
+    display: flex;
+    gap: 9em;
 }
