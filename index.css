@@ -1,0 +1,50 @@
+
+*{
+    margin-top: 0;
+}
+.alllognav{
+    background-color: dodgerblue;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    padding: 1em 2em;
+}
+.log{
+    padding: 8px 9px;
+}
+.log img{
+    width: 100px;
+}
+.nav{
+    
+    display: flex;
+    gap: 1em;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+.nav li{
+    list-style: none;
+    padding: 8px 5px;
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+li button{
+   
+    
+    padding: 8px 10px;
+    background-color: brown;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 2em;
+}
+
+.alllognav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
