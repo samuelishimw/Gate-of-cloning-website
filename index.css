@@ -18,14 +18,14 @@
 .nav{
     
     display: flex;
-    gap: 1em;
+    gap: 2em;
     justify-content: space-around;
     align-items: center;
  
 }
 .nav li{
     list-style: none;
-    padding: 8px 5px;
+    padding: 15px 20px;
 }
 .nav li a{
     color: white;
@@ -35,8 +35,8 @@
 li button{
    
     
-    padding: 8px 10px;
-    background-color: brown;
+    padding: 10px 12px;
+    background-color: #ed5f63;
     color: white;
     border: none;
     outline: none;
@@ -47,4 +47,9 @@ li button{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.all2{
+    background-image: url('../images/banner-bg.jpg.jpeg');
+    background-size: cover;
 }
