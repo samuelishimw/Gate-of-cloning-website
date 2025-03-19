@@ -132,6 +132,12 @@ p{
     font-weight: bold;
     padding: 1em 1em;
 }
+.butto button:hover{
+
+   background-color:  #0071f8;
+   transition: 1s;
+
+}
 .umb{
     position: absolute;
     top:0;
@@ -163,14 +169,18 @@ bottom:-18px;
 }
 .grid1 img{
     background-color: #0071f8;
-    width: 20%;
+    width: 40%;
     border-radius: 50%;
     padding:  1em;
     align-items: center;
 }
+.grid1 img:hover{
+    background-color: #ed5f63;
+
+}
 .grid1{
-    background-color: aqua;
-    width: 50%;
+    background-color:white;
+    width: 80%;
     padding:  3em ;
     justify-items: center;
     border-radius: 20px;
@@ -185,6 +195,36 @@ bottom:-18px;
     grid-template-columns: repeat(4,1fr);
     margin: 2em 2em;
     position: absolute;
-    bottom:-370px;
+    bottom:-400px;
     gap: 2.5cm;
+}
+.another{
+    padding: 1em 2em ;
+    display: flex;
+    gap: 50em;
+    
+}
+
+.p4{
+    margin-top: 3cm;
+    color: #ed5f63;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.p5{
+    margin-top: 0.5cm;
+   font-size: 30px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bu3 button{
+    background-color: #ed5f63;
+    padding: 1em 2em;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 4cm;
 }
