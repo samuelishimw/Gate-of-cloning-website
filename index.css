@@ -264,8 +264,9 @@ bottom:-18px;
 }
 .par4{
     display: flex;
-    justify-content: space-between;
-    padding: 2em;
+    justify-content:center;
+    margin-top: 0.3cm;
+   
   
    
 
@@ -298,4 +299,22 @@ del{
     color: white;
     font-weight: bold;
     font-size: 20px;
+}
+.photoess{
+    display: grid;
+  grid-template-columns: repeat(6,1fr);
+  padding: 1em 2em;
+
+  gap: 0.3em;
+
+}
+.expr button{
+    padding: 0.5em;
+    border: none;
+    background-color: #ed5f63;
+    outline: none;
+    font-weight: bold;
+    border-radius: 20px;
+    color: white;
+
 }
