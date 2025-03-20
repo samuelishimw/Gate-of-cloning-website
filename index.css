@@ -236,7 +236,8 @@ bottom:-18px;
 
 .photo1 img{
     border-radius: 20px;
-    width: 25%;
+  width: 250px;
+
     position: relative;
     
     
@@ -252,9 +253,12 @@ bottom:-18px;
     flex-direction: column;
     position: absolute;
     top:33.5cm;
-    right: 25.3cm;
+    right: 27cm;
 }
-.photo1{
+.photoes{
+    background-color: aqua;
+    width:250px;
+    border-radius: 20px;
 
 }
 .imn img{
@@ -268,9 +272,16 @@ bottom:-18px;
 .asi{
     margin-top: 0.5cm;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
 }
 .alll{
     display: flex;
-    gap: 9em;
+    gap: 6em;
+}
+#pho{
+    width: 20%;
+}
+.allactas{
+    
+    
 }
