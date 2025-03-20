@@ -59,6 +59,7 @@ li button{
     background-size: cover;
     display: flex;
     gap:8em;
+    top: 0;
 
     
     
@@ -90,8 +91,8 @@ input{
     gap: 2em;
     
 }
-p6{
-    color: rgb(94, 57, 57);
+.p6{
+    color: white;
     margin-top: 1cm;
     font-size: 18px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -114,17 +115,7 @@ p6{
 #ak{
     padding-left: 3cm;
 }
-.allall{
-    background-image: url('../images/banner-bg.jpg.jpeg');
-    background-size: cover;
-    border-bottom-left-radius: 70px;
-    border-bottom-right-radius: 70px;
-    background-position: center;
-    position: relative;
 
-   
-
-}
 .butto button{
     border-radius: 20px;
     background-color:#ed5f63;
@@ -154,6 +145,10 @@ p6{
 }
 .imga{
     position: relative;
+   
+}
+.imga img{
+    border-radius: 20px;
 }
 .umb2{
 
@@ -196,7 +191,7 @@ bottom:-18px;
     grid-template-columns: repeat(4,1fr);
     margin: 2em 2em;
     position: absolute;
-    bottom:-400px;
+    bottom:-330px;
     gap: 2.5cm;
 }
 .another{
@@ -243,8 +238,9 @@ bottom:-18px;
   gap: 2em;
 }
 .boxes{
-    background-color: #A1A1AA;
+   
     width: 70%;
+
     border-radius: 20px;
 }
 .num {
@@ -264,6 +260,7 @@ bottom:-18px;
 .photo img{
     width: 100%;
     border-radius: 20px;
+    
 }
 .par4{
     display: flex;
@@ -276,4 +273,29 @@ bottom:-18px;
 .par4 img{
     width: 30PX;
     height: 30PX;
+    margin-top: 0.3cm;
+}
+.allall{
+    background-image: url('images/banner-bg.jpg.jpeg');
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+.tex{
+    color: #969595;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.te2{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+del{
+    color: white;
+    font-size: 20px;
+}
+.photo p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
