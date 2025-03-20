@@ -1,6 +1,7 @@
 
 *{
-    margin-top: 0;
+   margin: 0;
+   padding: 0;
 }
 .alllognav{
     background-color:#0071f8;
@@ -54,7 +55,7 @@ li button{
 .all2{
     margin-top:2cm ;
     padding: 1em 3em;
-    background-image: url('../images/banner-bg.jpg.jpeg');
+    background-image: url('images/banner-bg.jpg.jpeg');
     background-size: cover;
     display: flex;
     gap:8em;
@@ -89,8 +90,8 @@ input{
     gap: 2em;
     
 }
-p{
-    color: white;
+p6{
+    color: rgb(94, 57, 57);
     margin-top: 1cm;
     font-size: 18px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -229,59 +230,50 @@ bottom:-18px;
     margin-top: 4cm;
 }
 
+
+
+
+
+
 .photoes{
-    margin-top: 2cm;
-}
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 2em 2em;
 
-
-.photo1 img{
-    border-radius: 20px;
-  width: 250px;
-
-    position: relative;
-    
-    
+  gap: 2em;
 }
-.num{
-    background-color: #0071f8;
-    width: 1%;
-    padding: 1em 2em;
-   text-align: center;
-    border-radius: 15px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top:33.5cm;
-    right: 27cm;
-}
-.photoes{
-    background-color: aqua;
-    width:250px;
-    border-radius: 20px;
-
-}
-.imn img{
+.boxes{
+    background-color: #A1A1AA;
     width: 70%;
-    margin-top: 1.3cm;
+    border-radius: 20px;
 }
-.act{
-    color: rgb(135, 134, 134);
-    margin-top: 0.5cm;
+.num {
+    background-color: #0071f8;
+    position: absolute;
+    padding: 2px 12px;
+    top: 0;
+    margin-top: 0.3cm;
+    border-radius: 5px;
+   left: 140px;
 }
-.asi{
-    margin-top: 0.5cm;
-    font-weight: bold;
-    font-size: 17px;
+.photo{
+    position: relative;
+   
+    
 }
-.alll{
+.photo img{
+    width: 100%;
+    border-radius: 20px;
+}
+.par4{
     display: flex;
-    gap: 6em;
+    justify-content: space-between;
+    padding: 2em;
+  
+   
+
 }
-#pho{
-    width: 20%;
-}
-.allactas{
-    
-    
+.par4 img{
+    width: 30PX;
+    height: 30PX;
 }
