@@ -5,10 +5,14 @@
 }
 .alllognav{
     background-color:#0071f8;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+   
+    border-bottom-right-radius: 40em;
     display: flex;
     padding: 1em 2em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
    
 }
 .log{
@@ -20,14 +24,16 @@
 .nav{
     
     display: flex;
-    gap: 2em;
+   
     justify-content: space-around;
     align-items: center;
  
 }
 .nav li{
     list-style: none;
-    padding: 15px 20px;
+    padding: 1em 2em;
+    gap: 1em;
+    
 }
 .nav li a{
     color: white;
@@ -37,12 +43,13 @@
 li button{
    
     
-    padding: 10px 12px;
+    padding: 1em;
     background-color: #ed5f63;
     color: white;
     border: none;
     outline: none;
     border-radius: 2em;
+    
 }
 
 .alllognav{
@@ -60,6 +67,11 @@ li button{
     display: flex;
     gap:8em;
     top: 0;
+    padding-top: 4cm;
+    padding-bottom: 3cm;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    margin-left: 1cm;
 
     
     
@@ -180,6 +192,7 @@ bottom:-18px;
     padding:  3em ;
     justify-items: center;
     border-radius: 20px;
+    box-shadow: 3px 3px 3px grey;
 }
 .p2{
     margin-top: 0.5cm;
@@ -191,8 +204,10 @@ bottom:-18px;
     grid-template-columns: repeat(4,1fr);
     margin: 2em 2em;
     position: absolute;
-    bottom:-330px;
+    bottom:-370px;
     gap: 2.5cm;
+   
+  
 }
 .another{
     padding: 1em 2em ;
@@ -242,30 +257,34 @@ bottom:-18px;
     width: 70%;
 
     border-radius: 20px;
+    position: relative;
 }
 .num {
-    background-color: #0071f8;
+    background-color: #0071f8;;
     position: absolute;
     padding: 2px 12px;
-    top: 0;
-    margin-top: 0.3cm;
+   top:0;
     border-radius: 5px;
-   left: 140px;
+    right: 10px;
+    margin-top: 0.5cm;
+  
 }
 .photo{
-    position: relative;
    
+     
     
 }
 .photo img{
     width: 100%;
     border-radius: 20px;
+ 
     
 }
 .par4{
     display: flex;
     justify-content:center;
     margin-top: 0.3cm;
+    gap: 1em;
    
   
    
@@ -316,5 +335,9 @@ del{
     font-weight: bold;
     border-radius: 20px;
     color: white;
+    margin-top: 0.5cm;
 
+}
+.allgrid{
+    padding: 4em;
 }
